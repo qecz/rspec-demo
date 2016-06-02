@@ -24,5 +24,9 @@ end
 
 end
 
-hero = Hero.new 'Mike'
-puts hero.hero_info
+
+#hero = Hero.new 'Mike'
+#puts hero.name
+#puts hero.power_up
+#puts hero.power_down
+#puts hero.hero_info

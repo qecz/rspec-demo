@@ -1,9 +1,13 @@
 require './hero.rb'
 
 describe Hero do
+
 before do
+
 @hero = Hero.new 'mike'
+
 end 
+
 it "has a capitalize name" do
   expect(@hero.name).to eq 'Mike' #hero.name = 'Mike'
 end

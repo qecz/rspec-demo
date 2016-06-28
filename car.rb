@@ -15,7 +15,7 @@ attr_reader :fuel
 
 #как далеко можно проехать
   def range 
-    0
+    @fuel * MILES_PER_GALLON
   end
 
 end
